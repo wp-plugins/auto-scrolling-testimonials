@@ -1,4 +1,4 @@
-=== Show Auto Scrolling Testimonials ===
+=== Auto Scrolling Testimonials ===
 Contributors: opensourcetech
 Plugin URI: http://www.opensourcetechnologies.com/
 Tags: Testimonials, Auto Scrolling,auto scrolling testimonials, vertical auto scrolling
