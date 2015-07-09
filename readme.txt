@@ -6,7 +6,7 @@ Author: Opensourcetechnologies
 Author URI: http://www.opensourcetechnologies.com/ 
 Stable tag: 1.0
 Requires at least: 3.8
-Tested up to: 3.9
+Tested up to: 4.2.2
 License: GPLv3 or later
 
 Display the testimonials in scrolling sidebar widget and list of testimonials in any page by using shortcode.
