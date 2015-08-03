@@ -27,3 +27,5 @@ Display the testimonials in scrolling sidebar widget and list of testimonials in
 5. Open the Widgets page under the Appearance section
 6. Drag the Show Posts By Category widget to the active sidebar
 7. Configure the widget options to suit your needs and click Save
+
+For video tutorial : https://www.youtube.com/watch?v=ZdXEKW6EStU&feature=youtu.be
