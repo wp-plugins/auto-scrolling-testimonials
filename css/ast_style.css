@@ -8,7 +8,7 @@
 .newsticker-jcarousellite { width:100%; }
 .newsticker-jcarousellite ul li{ list-style:none; display:block; padding-bottom:1px; margin-bottom:5px; border-bottom:#fff 1px solid; }
 .newsticker-jcarousellite .thumbnail { float:left; width:110px; }
-.newsticker-jcarousellite .info { float:right;  line-height:1.5em !important;  }
+.newsticker-jcarousellite .info { line-height:1.5em !important;  }
 .newsticker-jcarousellite .info span.author { display: block; font-size:10px; color:#000; font-weight:bold; font-family:Arial,Sans-Serif; font-size:12px; }
 .newsticker-jcarousellite .info span.cat { display: block; font-size:10px; color:#808080; }
 
