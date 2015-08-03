@@ -15,7 +15,7 @@ Display the testimonials in scrolling sidebar widget and list of testimonials in
 
 <p>Auto Scrolling Testimonials plugin allows you to show testimonials with auto scrolling effect in the side bar by using widget. There is also a shortcode functionaility which helps to show testimonials records in pages. To show testimonials on pages  you can use the shortcode [astlist]. This shortcode also accepts the different arguments. For example [ostlist nop="no of testimonials" order="rand"].</p>
 
-
+For video tutorial : https://www.youtube.com/watch?v=ZdXEKW6EStU&feature=youtu.be
 == Installation ==
 
 1. Download auto-scrolling-testimonials.zip
@@ -28,4 +28,4 @@ Display the testimonials in scrolling sidebar widget and list of testimonials in
 6. Drag the Show Posts By Category widget to the active sidebar
 7. Configure the widget options to suit your needs and click Save
 
-For video tutorial : https://www.youtube.com/watch?v=ZdXEKW6EStU&feature=youtu.be
+
