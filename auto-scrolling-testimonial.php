@@ -120,7 +120,9 @@ class ast_testimonials extends WP_Widget
 	}
 	$query = new WP_Query( $args );
 
-
+	/*echo '<pre>';
+	print_r($query);
+	echo '</pre>';*/
 	/* The loop to show widget  */ 
 	?>
 	<style type="text/css">
@@ -149,17 +151,17 @@ class ast_testimonials extends WP_Widget
 		//$result .= '<div class="thumbnail"><img src="http://shailimittal.com/clients/unique/images/letmeart/429photo_55.jpg" width="80"></div>';
 		$result .= '<div class="info">';
 
-		$tauthor = get_post_meta(get_the_ID(),'Author');
+		$tauthor = get_post_meta(get_the_ID(),'Author',true);
 
-		if(count($tauthor)>0) $result .= '<span class="author">'.$tauthor[0].'</span>';
+		if(count($tauthor)>0) $result .= '<span class="author">'.$tauthor.'</span>';
 
 		$result .= $this->ast_shortDescription(strip_tags($content),$count_char).'</div>';
 		
 		$result .= '<br/><a class="ostmore" href="'.get_permalink().'">Read more</a>';
 
-		$websiteLink = get_post_meta(get_the_ID(),'Website');
+		$websiteLink = get_post_meta(get_the_ID(),'Website',true);
 
-		if(!empty($websiteLink))$result .= '<br/><a class="ostmore" href="'.$websiteLink.'">View Website</a>';
+		if(!empty($websiteLink))$result .= '<br/><a class="ostmore" href="http://'.$websiteLink.'">View Website</a>';
 
 		$result .= '<div class="clear"></div></li>';
 
@@ -230,11 +232,14 @@ function astInformation(){
   global $post;
   
   $custom	= get_post_custom($post->ID);
-  $Author	= '';
-  $Website	= '';
-  if (isset($_POST['Author']) && $_POST['Website']) {
+  $Author	= get_post_meta($post->ID,'Author',true);
+  $Website	= get_post_meta($post->ID,'Website',true);
+  /*if (isset($_POST['Author']) && $_POST['Website']) {
 	 $Author	= $custom["Author"][0];
-	 $Website	= $custom["Website"][0];}
+	 $Website	= $custom["Website"][0];
+	 }*/
+	 
+	 
   ?>
    <div> <p><label></label>Name:&nbsp;</label>
   <input name="Author" value="<?php echo $Author; ?>" /></p></div>
@@ -243,11 +248,13 @@ function astInformation(){
   <?php
 }
 
+
 /* Function for saving the "author" value */
 add_action('save_post', 'ast_update_details');
 
 function ast_update_details(){
   global $post; 
+  
   if (isset($_POST['Author']) && !empty($_POST['Author'])){  update_post_meta($post->ID, "Author", $_POST["Author"]);  }
   if ( isset($_POST['Website']) && !empty($_POST['Website']) ){   update_post_meta($post->ID, "Website", $_POST["Website"]);  }
 }
