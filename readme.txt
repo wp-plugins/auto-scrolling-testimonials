@@ -32,7 +32,7 @@ Display the testimonials in scrolling sidebar widget and list of testimonials in
 
 == Changelog ==
 
-Version 1.1
+<b>Version 1.1</b>
 
 1. Improved performance.
 2. Fixed some bugs.
