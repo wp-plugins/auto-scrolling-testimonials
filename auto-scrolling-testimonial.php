@@ -3,7 +3,7 @@
 Plugin Name: Auto Scrolling Testimonials
 Plugin URI: http://opensourcetechnologies.com
 Description: Auto Scrolling Testimonials plugin allows you to show testimonials with auto scrolling effect in the side bar by using widget. There is also a shortcode functionaility which helps to show testimonials records in pages. To show testimonials on pages  you can use the shortcode [astlist]. This shortcode also accepts the different arguments. For example [ostlist nop="5" of testimonials" order="rand"].
-Version: 1.0
+Version: 1.1
 Author: Opensourcetechnologies
 Author URI: http://opensourcetechnologies.com
 */
