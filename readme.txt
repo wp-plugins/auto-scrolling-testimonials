@@ -4,7 +4,7 @@ Plugin URI: http://www.opensourcetechnologies.com/
 Tags: Testimonials, Auto Scrolling,auto scrolling testimonials, vertical auto scrolling
 Author: Opensourcetechnologies
 Author URI: http://www.opensourcetechnologies.com/ 
-Stable tag: 1.0
+Stable tag: 1.1
 Requires at least: 3.8
 Tested up to: 4.2.2
 License: GPLv3 or later
@@ -17,6 +17,7 @@ Display the testimonials in scrolling sidebar widget and list of testimonials in
 
 <p>For video tutorial : <a href="https://www.youtube.com/watch?v=ZdXEKW6EStU&feature=youtu.be">Click here</a>
 </p>
+
 == Installation ==
 
 1. Download auto-scrolling-testimonials.zip
@@ -29,4 +30,9 @@ Display the testimonials in scrolling sidebar widget and list of testimonials in
 6. Drag the Show Posts By Category widget to the active sidebar
 7. Configure the widget options to suit your needs and click Save
 
+== Changelog ==
 
+Version 1.1
+
+1. Improved performance.
+2. Fixed some bugs.
